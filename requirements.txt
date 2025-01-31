@@ -1,0 +1,20 @@
+# Core Dependencies
+python>=3.8
+streamlit>=1.22.0  # For the web interface
+transformers>=4.26.0  # For DeepSeek or other LLMs
+torch>=2.0.0  # For DeepSeek and Whisper
+openai-whisper>=20230308  # For speech-to-text
+TTS>=0.11.0  # For Coqui TTS
+requests>=2.28.0  # For API integrations
+selenium>=4.8.0  # For browser automation
+playsound>=1.3.0  # For playing audio files
+google-api-python-client>=2.85.0  # For Google Calendar API
+google-auth>=2.16.0  # For Google API authentication
+psutil>=5.9.0  # For system monitoring
+schedule>=1.1.0  # For task scheduling (reminders, alarms)
+
+# Testing and Development
+pytest>=7.2.0  # For unit and integration tests
+pytest-cov>=4.0.0  # For test coverage
+black>=23.1.0  # For code formatting
+flake8>=6.0.0  # For linting
