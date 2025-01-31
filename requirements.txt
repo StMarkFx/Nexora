@@ -12,6 +12,9 @@ google-api-python-client>=2.85.0  # For Google Calendar API
 google-auth>=2.16.0  # For Google API authentication
 psutil>=5.9.0  # For system monitoring
 schedule>=1.1.0  # For task scheduling (reminders, alarms)
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
 
 # Testing and Development
 pytest>=7.2.0  # For unit and integration tests

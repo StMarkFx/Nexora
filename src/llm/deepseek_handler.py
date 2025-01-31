@@ -1,5 +1,7 @@
 from transformers import pipeline
 
+# consider Mistral Small 3 too
+
 class DeepSeekHandler:
     def __init__(self, model_path="models/deepseek/"):
         self.generator = pipeline('text-generation', model=model_path)
