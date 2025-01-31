@@ -1,0 +1,5 @@
+{
+    "newsapi": "YOUR_NEWSAPI_KEY",
+    "openweathermap": "YOUR_OPENWEATHERMAP_KEY",
+    "google_calendar": "YOUR_GOOGLE_CALENDAR_CREDENTIALS"
+  }
