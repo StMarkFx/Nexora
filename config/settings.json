@@ -1,0 +1,11 @@
+{
+    "assistant_name": "Nexora",
+    "wake_word": "Hey Nexora",
+    "voice": "default",  
+    "language": "en",  
+    "speech_speed": 1.0,
+    "log_level": "INFO",
+    "default_location": "New York",
+    "default_news_source": "BBC"
+  }
+  
