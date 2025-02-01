@@ -156,7 +156,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Contact 📧
 
 For questions or feedback, reach out to:
-- **Name**: [St. Mark Adebayo](your.email@example.com)
-- **LinkedIn**: [St. Mark Adebayo](https://www.linkedin.com/in/stmarkadebayo)
-- **GitHub**: [yourusername](https://github.com/yourusername)
+- **Name**: [St. Mark Adebayo]
+- [**Email**](stmarkadebayo@gmail.com)
+- [**LinkedIn**](https://www.linkedin.com/in/stmarkadebayo)
 
