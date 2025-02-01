@@ -84,7 +84,7 @@ Nexora is a **voice-controlled AI assistant** that can browse files, summarize t
 
 
 ## Project Structure 📂
-
+```
 nexora-voice-assistant/
 ├── README.md                       # Project documentation
 ├── requirements.txt                # Python dependencies
@@ -156,6 +156,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Contact 📧
 
 For questions or feedback, reach out to:
-- **Your Name**: your.email@example.com
+- **Name**: [St. Mark Adebayo](your.email@example.com)
+- **LinkedIn**: [St. Mark Adebayo](https://www.linkedin.com/in/stmarkadebayo)
 - **GitHub**: [yourusername](https://github.com/yourusername)
 
