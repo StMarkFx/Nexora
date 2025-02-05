@@ -1,8 +1,8 @@
-streamlit>=1.22.0
-openai-whisper>=20230308
-TTS>=0.11.0
-sounddevice>=0.4.6
-soundfile>=0.12.1
-numpy>=1.24.0
-requests>=2.28.0
+streamlit
+openai-whisper
+TTS
+sounddevice
+soundfile
+numpy
+requests
 ollama
