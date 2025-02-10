@@ -1,11 +1,18 @@
-from transformers import pipeline
+from deepseek.chat import Chat  # Adjust import based on your installation
 
-# consider Mistral Small 3 too
+class DeepSeekChatbot:
+    def __init__(self):
+        self.chatbot = Chat(model="deepseek-chat")  # Load DeepSeek model
 
-class DeepSeekHandler:
-    def __init__(self, model_path="models/deepseek/"):
-        self.generator = pipeline('text-generation', model=model_path)
+    def get_response(self, query: str) -> str:
+        response = self.chatbot.ask(query)
+        return response["message"]  # Adjust based on actual response format
 
-    def generate_response(self, prompt):
-        response = self.generator(prompt, max_length=50)
-        return response[0]['generated_text']
+if __name__ == "__main__":
+    bot = DeepSeekChatbot()
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() == "exit":
+            break
+        response = bot.get_response(user_input)
+        print("Nexora:", response)
