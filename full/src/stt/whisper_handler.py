@@ -1,9 +1,14 @@
 import whisper
 
-class WhisperHandler:
-    def __init__(self, model_path="models/whisper/base.pt"):
-        self.model = whisper.load_model(model_path)
+class SpeechRecognizer:
+    def __init__(self, model_name="base"):
+        self.model = whisper.load_model(model_name)
 
-    def transcribe(self, audio_file):
-        result = self.model.transcribe(audio_file)
+    def transcribe_audio(self, audio_path):
+        result = self.model.transcribe(audio_path)
         return result["text"]
+
+if __name__ == "__main__":
+    recognizer = SpeechRecognizer()
+    text = recognizer.transcribe_audio("audio.mp3")  # Replace with actual file path
+    print("Transcription:", text)
