@@ -1,18 +1,18 @@
 # Core Dependencies
-ollama==0.1.7   # Required for DeepSeek via Ollama
+ollama  # Required for DeepSeek via Ollama
 
 # Whisper for Speech-to-Text
-openai-whisper==20231101
-torch==2.1.0  # Required for Whisper
+openai-whisper
+torch # Required for Whisper
 
 # Coqui-TTS for Text-to-Speech
-coqui-ai-tts==1.15.0
+coqui-ai-tts==
 
 # Streamlit (Optional, if you want a UI)
-streamlit==1.29.0
+streamlit
 
 # Testing and Development
-pytest>=7.2.0  # For unit and integration tests
-pytest-cov>=4.0.0  # For test coverage
-black>=23.1.0  # For code formatting
-flake8>=6.0.0  # For linting
+pytest  # For unit and integration tests
+pytest-cov  # For test coverage
+black # For code formatting
+flake8# For linting
