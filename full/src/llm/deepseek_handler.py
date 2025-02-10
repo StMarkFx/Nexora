@@ -1,12 +1,12 @@
-from deepseek.chat import Chat  # Adjust import based on your installation
+import ollama
 
 class DeepSeekChatbot:
     def __init__(self):
-        self.chatbot = Chat(model="deepseek-chat")  # Load DeepSeek model
+        self.model_name = "deepseek-r1:1.5b"  # Ensure this matches your Ollama model
 
     def get_response(self, query: str) -> str:
-        response = self.chatbot.ask(query)
-        return response["message"]  # Adjust based on actual response format
+        response = ollama.chat(model=self.model_name, messages=[{"role": "user", "content": query}])
+        return response['message']
 
 if __name__ == "__main__":
     bot = DeepSeekChatbot()
