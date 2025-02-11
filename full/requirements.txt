@@ -6,7 +6,7 @@ openai-whisper
 torch # Required for Whisper
 
 # Coqui-TTS for Text-to-Speech
-coqui-ai-tts==
+coqui-ai-tts
 
 # Streamlit (Optional, if you want a UI)
 streamlit
